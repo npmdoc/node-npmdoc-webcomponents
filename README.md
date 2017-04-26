@@ -1,6 +1,6 @@
 # npmdoc-webcomponents
 
-#### api documentation for  webcomponents (v0.1.4)  [![npm package](https://img.shields.io/npm/v/npmdoc-webcomponents.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-webcomponents) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-webcomponents.svg)](https://travis-ci.org/npmdoc/node-npmdoc-webcomponents)
+#### basic api documentation for  webcomponents (v0.1.4)  [![npm package](https://img.shields.io/npm/v/npmdoc-webcomponents.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-webcomponents) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-webcomponents.svg)](https://travis-ci.org/npmdoc/node-npmdoc-webcomponents)
 
 #### Server side web components.
 
@@ -57,7 +57,8 @@
     "scripts": {
         "test": "node test/index.js"
     },
-    "version": "0.1.4"
+    "version": "0.1.4",
+    "bin": {}
 }
 ```
 
