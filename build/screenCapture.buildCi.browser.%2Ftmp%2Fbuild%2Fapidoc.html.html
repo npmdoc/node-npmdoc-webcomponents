@@ -56,6 +56,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index">
+            function <span class="apidocSignatureSpan">webcomponents.</span>index
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">webcomponents.</span>_eventsCount</span>
 
         </li>
@@ -72,6 +81,119 @@
 
         </li>
 
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">webcomponents.</span>index.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.webcomponents.index">module webcomponents.index</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.index">
+            function <span class="apidocSignatureSpan">webcomponents.</span>index
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.super_">
+            function <span class="apidocSignatureSpan">webcomponents.index.</span>super_
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.webcomponents.index.prototype">module webcomponents.index.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.prototype.fetchContent">
+            function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>fetchContent
+            <span class="apidocSignatureSpan">($template)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.prototype.fetchResources">
+            function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>fetchResources
+            <span class="apidocSignatureSpan">($component)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.prototype.fetchStyle">
+            function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>fetchStyle
+            <span class="apidocSignatureSpan">($component)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.prototype.fetchTemplate">
+            function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>fetchTemplate
+            <span class="apidocSignatureSpan">($component)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.prototype.render">
+            function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>render
+            <span class="apidocSignatureSpan">($customElement, globalData)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.prototype.renderElement">
+            function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>renderElement
+            <span class="apidocSignatureSpan">(rendered)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.prototype.renderStyle">
+            function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>renderStyle
+            <span class="apidocSignatureSpan">(style)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.prototype.renderTemplate">
+            function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>renderTemplate
+            <span class="apidocSignatureSpan">(template, componentData, globalData, relativePath)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.webcomponents.index.prototype.renderTree">
+            function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>renderTree
+            <span class="apidocSignatureSpan">($fragment, globalData)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
@@ -80,9 +202,552 @@
 <h1><a href="#apidoc.module.webcomponents" id="apidoc.module.webcomponents">module webcomponents</a></h1>
 
 
+    <h2>
+        <a href="#apidoc.element.webcomponents.index" id="apidoc.element.webcomponents.index">
+        function <span class="apidocSignatureSpan">webcomponents.</span>index
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Component(name) {
+    Element.call(this, name);
+
+    var definition = CustomElements.getRegisteredDefinition(name);
+
+    this.path = definition.path;
+    this.adapter = definition.adapter;
+    this.attributes = definition.attributes;
+    this.outer = definition.outer;
+    this.$ = definition.$;
+    this.$component = definition.$component;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
 
 
 
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.webcomponents.index" id="apidoc.module.webcomponents.index">module webcomponents.index</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.index" id="apidoc.element.webcomponents.index.index">
+        function <span class="apidocSignatureSpan">webcomponents.</span>index
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Component(name) {
+    Element.call(this, name);
+
+    var definition = CustomElements.getRegisteredDefinition(name);
+
+    this.path = definition.path;
+    this.adapter = definition.adapter;
+    this.attributes = definition.attributes;
+    this.outer = definition.outer;
+    this.$ = definition.$;
+    this.$component = definition.$component;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.super_" id="apidoc.element.webcomponents.index.super_">
+        function <span class="apidocSignatureSpan">webcomponents.index.</span>super_
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Element(name){
+    this.name = name;
+    this.attributes = {};
+
+    // invoke createdCallback
+    if (this.createdCallback) {
+        this.createdCallback();
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.webcomponents.index.prototype" id="apidoc.module.webcomponents.index.prototype">module webcomponents.index.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.prototype.fetchContent" id="apidoc.element.webcomponents.index.prototype.fetchContent">
+        function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>fetchContent
+        <span class="apidocSignatureSpan">($template)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fetchContent = function ($template) {
+
+    var self = this;
+    var $ = self.$;
+    var $customElement = self.$customElement;
+    // render composed DOM
+    $template.find('content').each(function () {
+        var $content = $(this);
+        var select = $content.attr('select');
+
+        var $matched;
+        if (select) {
+            $matched = $customElement.find(select);
+        } else {
+            $matched = $customElement.children()
+        }
+        $content.replaceWith($matched);
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+Component.prototype.fetchTemplate = function ($component) {
+    var $template = $component.find('template');
+
+    if ($template.length) {
+
+        var type = $template.attr('type') || 'template';
+        this.<span class="apidocCodeKeywordSpan">fetchContent</span>($template);
+        return {
+            content: $template.html(),
+            type: type
+        };
+    }
+
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.prototype.fetchResources" id="apidoc.element.webcomponents.index.prototype.fetchResources">
+        function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>fetchResources
+        <span class="apidocSignatureSpan">($component)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fetchResources = function ($component) {
+    var self = this;
+    var $ = this.$;
+    var requestPromises = [];
+
+    CustomElements.getRegistered(RESOURCE_TYPE).forEach(function (customElement) {
+        var $resources = $component.find(customElement);
+
+        $resources.each(function () {
+
+            var $resource = $(this);
+            var tagName = this.name;
+            var resourceElement = CustomElements.create(tagName);
+
+            CustomElements.getPublishedAttributes(tagName).forEach(function (attribute) {
+                var value = $resource.attr(attribute);
+                if (value) resourceElement.setAttribute(attribute, value);
+            });
+            // Before request handler
+            resourceElement.beforeRequest &amp;&amp; resourceElement.beforeRequest(self.attributes);
+
+            var promise = new Promise(function (resolve, reject) {
+                resourceElement.request(resolve, reject);
+            });
+
+            requestPromises.push(promise);
+        });
+
+        // remove it
+        $resources.remove();
+    });
+
+    return Promise.all(requestPromises)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+Component.prototype.render = function ($customElement, globalData) {
+var self = this;
+self.$customElement = $customElement;
+var $component = self.$component;
+
+// process template
+var promise = self.<span class="apidocCodeKeywordSpan">fetchResources</span>($component)
+    .then(function (componentData) {
+        // componentData is array
+        var rendered = '';
+        var template = self.fetchTemplate($component);
+        if (template) {
+            rendered = self.renderTemplate(template, componentData, globalData, self.path);
+        }
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.prototype.fetchStyle" id="apidoc.element.webcomponents.index.prototype.fetchStyle">
+        function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>fetchStyle
+        <span class="apidocSignatureSpan">($component)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fetchStyle = function ($component) {
+    var $style = $component.find('style');
+    var type = $style.attr('type') || 'style';
+    if ($style.length) {
+        return {
+            content: Style.shimShadowStyles($style.html(), this.name),
+            type: type
+        };
+    }
+    // TODO: support external link
+    // var $link = $component.find('link[ref=stylesheet]');
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    rendered = self.renderTemplate(template, componentData, globalData, self.path);
+}
+return rendered;
+
+        })
+        .then(function (rendered) {
+// process style
+var style = self.<span class="apidocCodeKeywordSpan">fetchStyle</span>($component);
+var styleHtml = self.renderStyle(style);
+return styleHtml + rendered;
+        })
+        .then(function (rendered) {
+self.renderElement(rendered);
+
+// Must render current component first that may pass dynamic params to sub component attributes.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.prototype.fetchTemplate" id="apidoc.element.webcomponents.index.prototype.fetchTemplate">
+        function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>fetchTemplate
+        <span class="apidocSignatureSpan">($component)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fetchTemplate = function ($component) {
+    var $template = $component.find('template');
+
+    if ($template.length) {
+
+        var type = $template.attr('type') || 'template';
+        this.fetchContent($template);
+        return {
+            content: $template.html(),
+            type: type
+        };
+    }
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    var $component = self.$component;
+
+    // process template
+    var promise = self.fetchResources($component)
+.then(function (componentData) {
+    // componentData is array
+    var rendered = '';
+    var template = self.<span class="apidocCodeKeywordSpan">fetchTemplate</span>($component);
+    if (template) {
+        rendered = self.renderTemplate(template, componentData, globalData, self.path);
+    }
+    return rendered;
+
+})
+.then(function (rendered) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.prototype.render" id="apidoc.element.webcomponents.index.prototype.render">
+        function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>render
+        <span class="apidocSignatureSpan">($customElement, globalData)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">render = function ($customElement, globalData) {
+    var self = this;
+    self.$customElement = $customElement;
+    var $component = self.$component;
+
+    // process template
+    var promise = self.fetchResources($component)
+        .then(function (componentData) {
+            // componentData is array
+            var rendered = '';
+            var template = self.fetchTemplate($component);
+            if (template) {
+                rendered = self.renderTemplate(template, componentData, globalData, self.path);
+            }
+            return rendered;
+
+        })
+        .then(function (rendered) {
+            // process style
+            var style = self.fetchStyle($component);
+            var styleHtml = self.renderStyle(style);
+            return styleHtml + rendered;
+        })
+        .then(function (rendered) {
+            self.renderElement(rendered);
+
+            // Must render current component first that may pass dynamic params to sub component attributes.
+            // TODO: how to optimize in production env when sub component is rendered by dynamic dependent
+            self.renderTree($customElement, globalData);
+        });
+
+    return promise;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&lt;/x-hello&gt;
+```
+
+```js
+var WebComponents = require('webcomponents');
+
+WebComponents.load('/components/**/*.html');
+WebComponents.<span class="apidocCodeKeywordSpan">render</span>('index.html', {project: 'WebComponents'}).then
+(
+    function(rendered){
+        fs.writeFileSync('index_rendered.html', rendered)
+    }
+);
+
+```
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.prototype.renderElement" id="apidoc.element.webcomponents.index.prototype.renderElement">
+        function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>renderElement
+        <span class="apidocSignatureSpan">(rendered)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">renderElement = function (rendered) {
+    var self = this;
+    var $customElement = self.$customElement;
+
+    if (self.outer) {
+        $customElement.replaceWith(rendered);
+    } else {
+        // Convert custom tag to shim tag with component class
+        if($customElement[0].name == self.name){
+            $customElement[0].name = SHIM_TAG_NAME;
+            $customElement.addClass(self.name);
+        }
+
+        $customElement.html(rendered);
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    .then(function (rendered) {
+        // process style
+        var style = self.fetchStyle($component);
+        var styleHtml = self.renderStyle(style);
+        return styleHtml + rendered;
+    })
+    .then(function (rendered) {
+        self.<span class="apidocCodeKeywordSpan">renderElement</span>(rendered);
+
+        // Must render current component first that may pass dynamic params to sub component attributes.
+        // TODO: how to optimize in production env when sub component is rendered by dynamic dependent
+        self.renderTree($customElement, globalData);
+    });
+
+return promise;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.prototype.renderStyle" id="apidoc.element.webcomponents.index.prototype.renderStyle">
+        function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>renderStyle
+        <span class="apidocSignatureSpan">(style)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">renderStyle = function (style) {
+    if (!style) {
+        return '';
+    }
+
+    var self = this;
+    var content = style.content;
+    var type = style.type;
+
+    return ['&lt;style&gt;', content, '&lt;/style&gt;'].join('');
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+return rendered;
+
+        })
+        .then(function (rendered) {
+// process style
+var style = self.fetchStyle($component);
+var styleHtml = self.<span class="apidocCodeKeywordSpan">renderStyle</span>(style);
+return styleHtml + rendered;
+        })
+        .then(function (rendered) {
+self.renderElement(rendered);
+
+// Must render current component first that may pass dynamic params to sub component attributes.
+// TODO: how to optimize in production env when sub component is rendered by dynamic dependent
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.prototype.renderTemplate" id="apidoc.element.webcomponents.index.prototype.renderTemplate">
+        function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>renderTemplate
+        <span class="apidocSignatureSpan">(template, componentData, globalData, relativePath)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">renderTemplate = function (template, componentData, globalData, relativePath) {
+    var self = this;
+    var content = template.content;
+    var type = template.type;
+    var engine = Engine.get(type);
+
+    var combinedData = componentData;
+
+    if (_.isArray(componentData)) {
+        // TODO: the performance of 'call' is better then 'apply'
+        combinedData = _.extend.apply(null, _.clone(componentData));
+    }
+
+    var data = _.extend({}, globalData, self.attributes, combinedData);
+    if (_.isFunction(self.adapter)) {
+        var fn = self.adapter;
+        var context = {
+            request: globalData.request,
+            req: globalData.request,
+            response: globalData.response,
+            res: globalData.response,
+            global: globalData,
+            attributes: self.attributes,
+            // resource data
+            data: componentData
+        };
+        // TODO: clone data if pass data may be rewrite, but it performance mate
+        data = fn.call(context, data);
+    }
+
+    if (engine.compile &amp;&amp; engine.render) {
+        var compiled = engine.compile(content, relativePath);
+        return engine.render(compiled, data);
+    } else if (_.isFunction(engine)) {
+        return engine(content, data, relativePath);
+    } else {
+        console.error('Engine', type, 'unregistered');
+    }
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    // process template
+    var promise = self.fetchResources($component)
+.then(function (componentData) {
+    // componentData is array
+    var rendered = '';
+    var template = self.fetchTemplate($component);
+    if (template) {
+        rendered = self.<span class="apidocCodeKeywordSpan">renderTemplate</span>(template, componentData, globalData, self.path
+);
+    }
+    return rendered;
+
+})
+.then(function (rendered) {
+    // process style
+    var style = self.fetchStyle($component);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.webcomponents.index.prototype.renderTree" id="apidoc.element.webcomponents.index.prototype.renderTree">
+        function <span class="apidocSignatureSpan">webcomponents.index.prototype.</span>renderTree
+        <span class="apidocSignatureSpan">($fragment, globalData)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">renderTree = function ($fragment, globalData) {
+    var self = this;
+    var $ = self.$;
+
+    var customElementPromises = [];
+
+    CustomElements.getRegistered().forEach(function (customElement) {
+
+        function renderElement(index, elem) {
+            var $customElement = $(this);
+            var component = new Component(customElement);
+
+            CustomElements.getPublishedAttributes(customElement).forEach(function (attribute) {
+                var value = $customElement.attr(attribute);
+                if (value) component.setAttribute(attribute, value);
+            });
+
+            var renderPromise = component.render($customElement, globalData);
+            // render all multi-level nested component
+            var renderTreePromise = self.renderTree($customElement, globalData);
+
+            customElementPromises.push(renderPromise, renderTreePromise);
+        }
+
+        $fragment.find(customElement).each(renderElement);
+        $fragment.find('[is=' + customElement + ']').each(renderElement);
+    });
+
+    return Promise.all(customElementPromises);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        return styleHtml + rendered;
+    })
+    .then(function (rendered) {
+        self.renderElement(rendered);
+
+        // Must render current component first that may pass dynamic params to sub component attributes.
+        // TODO: how to optimize in production env when sub component is rendered by dynamic dependent
+        self.<span class="apidocCodeKeywordSpan">renderTree</span>($customElement, globalData);
+    });
+
+return promise;
+};
+
+Component.prototype.renderElement = function (rendered) {
+var self = this;
+...</pre></li>
+    </ul>
 
 
 </div>
